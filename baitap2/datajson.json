@@ -1,0 +1,7 @@
+{
+    "students":[
+        {"name":"nam10","age":10,"gender":"nam","class":2},
+        {"name":"nam11","age":11,"gender":"nam","class":2},
+        {"name":"nam30","age":12,"gender":"nam","class":3}
+    ]    
+}
