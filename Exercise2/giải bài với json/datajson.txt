@@ -1,0 +1,6 @@
+{
+    "studentName":"nam",
+    "studentAge":10,
+    "studentGT":"nam",
+    "studentClassName":5
+}

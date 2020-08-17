@@ -1,0 +1,143 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="displaycss.css">
+<link rel="shortcut icon" type="image/png" href="images/icon2.png"/>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome/css/all.css">
+<style>
+</style>
+<script src='https://kit.fontawesome.com/a076d05399.js'>
+</script>
+</head>    
+<body>
+    <div class="stylebar">
+        <div class="stylebar1">
+            <a href="#"><button><strong>Upgrade</strong></button></a>
+            <a href="#">Dashboard</a>
+            <a href="#">My Settings</a>
+        </div>
+        <div class="stylebar2"> 
+            <i class='fas fa-user-circle' style="color: gray;"></i>
+            <a href="#" >@gmail.com</a>
+            <a href="#" style="color: rgb(233, 148, 162);">Logout</a>
+        </div>
+    </div>
+    <div>
+        <div class="side">
+            <div class="side1">
+                <button >+Add New Monitor</button>
+                <i class="fa fa-search"></i><input type="text" name="search">
+            </div>
+            <div class="side2">
+                <p style="background-color: green;"> 100.000% </p>
+                <p style="background-color: rgb(146, 145, 145);"> http </p>
+                <p style="color: black;"><strong>CMC Website</strong></p>
+                <div style="width:5%; height:10px; background-color:gray;float: left; margin-left: 20%;"></div><div style="width:15%; height:10px; background-color:green;float: left;"></div>
+                <i class="material-icons" style="width:10px; float: right;margin-right: 5%;">settings</i>
+            </div>
+            <div class="side3">
+                <ul>
+                    <li>Pause</li>
+                    <li>Edit</li>
+                    <li>Delete</li>
+                    <li>Reset Starts</li>
+                </ul>
+            </div>
+        </div>
+        <div class="main">
+            <div class="main1">
+                <div class="contentmain1">
+                    <h2><i class='fas fa-tv' ></i><strong> CMC Website</strong></h2>
+                    <div id="title">
+                        <strong><h4 style="color: forestgreen;">https://cmccybersecurity.com/</h4></strong>
+                        <div>A place to find all the details about your monitors</div>
+                    </div>
+                </div>        
+            </div>
+            <div class="main2">
+                <div class="contentmain2" >
+                        <strong style="float: left;"></strong>
+                        <div>
+                            <p><i class='fas fa-signal' ></i></strong></p>
+                            <h3><p>Uptime</p></h3>
+                            <p style="color: green; margin-bottom: 10px;"><strong>last 24 hours</strong></p>
+                        </div>
+                        <br>
+                        <div style="width:60%; background-color:green;"><div style="width:10%; background-color:grey;"></div></div>
+                        <div style="border-bottom: 1px solid grey; width:60%; "></div>
+                </div>
+                <div class="tablemain2">
+                    <div class="current" style="border-bottom: 1px solid gray; background-color:  rgb(34, 33, 33);">
+                        <p style="border-bottom: 1px solid gray;"><i class="fas fa-genderless" style="margin-left: 4%;"></i><b> Current Status</b></p>
+                        <span style="color: rgb(8, 180, 8);margin-left: 4%;">
+                            <i class="fas fa-genderless" style="font-size: 30px;"></i>
+                            <b style="font-size: 30px;padding: 0px 50px;">Up</b>
+                        </span><br>
+                        <span style="font-size: 12px;color: rgb(190, 190, 190);padding: 0px 10px;">Since 18 hrs, 28 mins (2020-08-04 08:03:39)</span>
+                    </div>
+                    <div class="current0" style="background-color: rgb(34, 33, 33);">
+                        <p><i class="fas fa-signal" style="margin: 10px 2% 15px 2%;"></i><b>Uptime</b></p>
+                        <p><b style="color: rgb(0, 165, 0);margin-left: 2%;"><i class="fas fa-certificate"></i>100.000%</b> (last 24 hours)</p>
+                        <p><b style="color: rgb(0, 165, 0);margin-left: 2%;"><i class="fas fa-certificate"></i>100.000%</b> (last 7 days)</p>
+                        <p><b style="color: rgb(0, 165, 0);margin-left: 2%;"><i class="fas fa-certificate"></i>100.000%</b> (last 30 days)</p>
+                    </div>
+                    <div class="current1" style="background-color: rgb(34, 33, 33);">
+                        <p><i class="fas fa-genderless" style="width: 15px;color:red; margin-left: 2%;"></i><b style="color: brown;">Latest downtime</b></p>
+                        <p style="margin-bottom: 10px;margin-top: 10px; margin-left: 2%; font-size: 14px;color: white;">No dowtime recorded</p>
+                    </div>
+                </div>
+            </div>
+            <div class="main3">
+                <div class="contentmain3">
+                    <strong ><p>Latest Events </p></strong>
+                    <p> (up, down, start, pause)</p>
+                </div>
+                <div class="contentmainright3">
+                    <strong><p>Export Logs</p></strong>
+                </div>
+                <table id="maintable" style="width:100%">
+                    <tr>
+                      <th>Event</th>
+                      <th>Date-Time</th> 
+                      <th>Reason</th>
+                      <th>Duration</th>
+                    </tr>
+                    <tr>
+                      <td><button style="background-color: rgb(98, 151, 18);"><i class='fas fa-arrow-up'></i> Up</button></td>
+                      <td>2020-08-04 08:03:39</td>
+                      <td>OK (200)</td>
+                      <td>18 hrs 28mins</td>
+                    </tr>
+                    <tr>
+                      <td><button style="background-color: cornflowerblue;"><i class='fas fa-caret-right'></i> Stared</button></td>
+                      <td>2020-08-04 08:01:55</td>
+                      <td>Started</td>
+                      <td>0 hrs 1mins</td>
+                    </tr>
+                    <tr>
+                      <td><button style="background-color: rgb(17, 16, 16);"><i class='fas fa-pause'></i> Paused</button></td>
+                      <td>2020-08-04 08:01:53</td>
+                      <td>Paused</td>
+                      <td>0 hrs 0mins</td>
+                    </tr>
+                    <tr>
+                        <td><button style="background-color: rgb(98, 151, 18);"><i class='fas fa-arrow-up'></i> Up</button></td>
+                        <td>2020-08-04 04:55:36</td>
+                        <td>OK (200)</td>
+                        <td>3 hrs 6mins</td>
+                      </tr>
+                      <tr>
+                        <td><button style="background-color: cornflowerblue;"><i class='fas fa-caret-right'></i> Stared</button></td>
+                        <td>2020-08-04 05:54:59</td>
+                        <td>Started</td>
+                        <td>0 hrs 0 mins</td>
+                      </tr>
+                  </table>
+            </div>
+        </div>  
+    </div>  
+</body>    
+</html>
