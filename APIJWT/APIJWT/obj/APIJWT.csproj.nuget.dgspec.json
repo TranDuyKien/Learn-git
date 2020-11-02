@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TRAN_DUY_KIEN\\Desktop\\New folder (2)\\APIJWT\\APIJWT\\APIJWT.csproj": {}
+    "C:\\Users\\KienTD\\Desktop\\New folder (2)\\APIJWT\\APIJWT\\APIJWT.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TRAN_DUY_KIEN\\Desktop\\New folder (2)\\APIJWT\\APIJWT\\APIJWT.csproj": {
+    "C:\\Users\\KienTD\\Desktop\\New folder (2)\\APIJWT\\APIJWT\\APIJWT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TRAN_DUY_KIEN\\Desktop\\New folder (2)\\APIJWT\\APIJWT\\APIJWT.csproj",
+        "projectUniqueName": "C:\\Users\\KienTD\\Desktop\\New folder (2)\\APIJWT\\APIJWT\\APIJWT.csproj",
         "projectName": "APIJWT",
-        "projectPath": "C:\\Users\\TRAN_DUY_KIEN\\Desktop\\New folder (2)\\APIJWT\\APIJWT\\APIJWT.csproj",
-        "packagesPath": "C:\\Users\\TRAN_DUY_KIEN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TRAN_DUY_KIEN\\Desktop\\New folder (2)\\APIJWT\\APIJWT\\obj\\",
+        "projectPath": "C:\\Users\\KienTD\\Desktop\\New folder (2)\\APIJWT\\APIJWT\\APIJWT.csproj",
+        "packagesPath": "C:\\Users\\KienTD\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\KienTD\\Desktop\\New folder (2)\\APIJWT\\APIJWT\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\TRAN_DUY_KIEN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\KienTD\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -79,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

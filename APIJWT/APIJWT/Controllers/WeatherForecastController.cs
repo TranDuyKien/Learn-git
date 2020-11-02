@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using APIJWT.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
 namespace APIJWT.Controllers
 {
-    [Authorize]
+    [Authorize(Roles =UserRoles.Admin)]
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase

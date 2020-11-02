@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace APIJWT.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20201101142524_Initial")]
+    [Migration("20201102011114_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
