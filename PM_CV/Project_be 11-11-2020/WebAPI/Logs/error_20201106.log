@@ -1,0 +1,551 @@
+----------------------------------------------------------------------
+Error in         : api/account/getallaccount
+Time             : 2020/47/06  10:47:44
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <GetAllAsync>d__1
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Invalid object name 'dbo.Accounts'.
+
+----------------------------------------------------------------------
+Error in         : api/account/GetAccountById
+Time             : 2020/16/06  11:16:46
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <FindAsync>d__3
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Invalid column name 'USER_NO'.
+
+----------------------------------------------------------------------
+Error in         : api/account/GetAccountById/1
+Time             : 2020/16/06  11:16:53
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <FindAsync>d__3
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Invalid column name 'USER_NO'.
+
+----------------------------------------------------------------------
+Error in         : api/account/GetAccountById/0
+Time             : 2020/16/06  11:16:56
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <FindAsync>d__3
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Invalid column name 'USER_NO'.
+
+----------------------------------------------------------------------
+Error in         : api/account/GetAccountById
+Time             : 2020/17/06  11:17:28
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <FindAsync>d__3
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Invalid column name 'USER_NO'.
+
+----------------------------------------------------------------------
+Error in         : api/account/GetAccountById/0
+Time             : 2020/17/06  11:17:33
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <FindAsync>d__3
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Invalid column name 'USER_NO'.
+
+----------------------------------------------------------------------
+Error in         : api/account/GetAccountById/1
+Time             : 2020/17/06  11:17:37
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <FindAsync>d__3
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Invalid column name 'USER_NO'.
+
+----------------------------------------------------------------------
+Error in         : api/account/GetAccountById/2
+Time             : 2020/18/06  11:18:02
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <FindAsync>d__3
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Invalid column name 'USER_NO'.
+
+----------------------------------------------------------------------
+Error in         : api/Account/InsertAccount
+Time             : 2020/23/06  11:23:50
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Must declare the scalar variable "@FULL_NAME".
+
+----------------------------------------------------------------------
+Error in         : api/Account/InsertAccount/1
+Time             : 2020/25/06  11:25:41
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Must declare the scalar variable "@FULL_NAME".
+
+----------------------------------------------------------------------
+Error in         : api/Account/InsertAccount/1
+Time             : 2020/25/06  11:25:51
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Must declare the scalar variable "@FULL_NAME".
+
+----------------------------------------------------------------------
+Error in         : api/Account/UpdatetAccount/1
+Time             : 2020/26/06  11:26:29
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <UpdateAsync>d__5
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Invalid column name 'USER_NO'.
+
+----------------------------------------------------------------------
+Error in         : api/Account/UpdatetAccount/0
+Time             : 2020/26/06  11:26:38
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <UpdateAsync>d__5
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Invalid column name 'USER_NO'.
+
+----------------------------------------------------------------------
+Error in         : api/Account/UpdatetAccount/1
+Time             : 2020/28/06  11:28:00
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <UpdateAsync>d__5
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Invalid column name 'USER_NO'.
+
+----------------------------------------------------------------------
+Error in         : api/Account/UpdatetAccount/0
+Time             : 2020/28/06  11:28:06
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <UpdateAsync>d__5
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Invalid column name 'USER_NO'.
+
+----------------------------------------------------------------------
+Error in         : api/Account/UpdatetAccount/0
+Time             : 2020/30/06  11:30:05
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <UpdateAsync>d__5
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Invalid column name 'USER_NO'.
+
+----------------------------------------------------------------------
+Error in         : api/Account/UpdatetAccount/1
+Time             : 2020/30/06  11:30:14
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <UpdateAsync>d__5
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Invalid column name 'USER_NO'.
+
+----------------------------------------------------------------------
+Error in         : api/Account/UpdatetAccount/0
+Time             : 2020/49/06  12:49:41
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <UpdateAsync>d__5
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Invalid column name 'USER_NO'.
+
+----------------------------------------------------------------------
+Error in         : api/Account/UpdatetAccount/0
+Time             : 2020/51/06  12:51:09
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <UpdateAsync>d__5
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Invalid column name 'USER_NO'.
+
+----------------------------------------------------------------------
+Error in         : api/Account/UpdatetAccount
+Time             : 2020/51/06  12:51:15
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <UpdateAsync>d__5
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Invalid column name 'USER_NO'.
+
+----------------------------------------------------------------------
+Error in         : api/Account/UpdatetAccount/0
+Time             : 2020/53/06  12:53:04
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <UpdateAsync>d__5
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Invalid column name 'USER_NO'.
+
+----------------------------------------------------------------------
+Error in         : api/Account/UpdatetAccount/0
+Time             : 2020/53/06  12:53:12
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <UpdateAsync>d__5
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Invalid column name 'USER_NO'.
+
+----------------------------------------------------------------------
+Error in         : api/Account/UpdatetAccount/0
+Time             : 2020/54/06  12:54:14
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <UpdateAsync>d__5
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Invalid column name 'USER_NO'.
+
+----------------------------------------------------------------------
+Error in         : api/Account/UpdatetAccount/0
+Time             : 2020/54/06  12:54:18
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <UpdateAsync>d__5
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Invalid column name 'USER_NO'.
+
+----------------------------------------------------------------------
+Error in         : api/Account/UpdatetAccount
+Time             : 2020/54/06  12:54:23
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <UpdateAsync>d__5
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Invalid column name 'USER_NO'.
+
+----------------------------------------------------------------------
+Error in         : api/Account/UpdatetAccount
+Time             : 2020/54/06  12:54:28
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <UpdateAsync>d__5
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Invalid column name 'USER_NO'.
+
+----------------------------------------------------------------------
+Error in         : api/Account/UpdatetAccount
+Time             : 2020/55/06  12:55:31
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <UpdateAsync>d__5
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Invalid column name 'USER_NO'.
+
+----------------------------------------------------------------------
+Error in         : api/Account/UpdatetAccount
+Time             : 2020/57/06  12:57:17
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <UpdateAsync>d__5
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Invalid column name 'USER_NO'.
+
+----------------------------------------------------------------------
+Error in         : api/Account/UpdatetAccount
+Time             : 2020/01/06  01:01:52
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <UpdateAsync>d__5
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Invalid column name 'USER_NO'.
+
+----------------------------------------------------------------------
+Error in         : api/account/GetAllAccount
+Time             : 2020/03/06  01:03:49
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <GetAllAsync>d__1
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Invalid object name 'dbo.AccountInfo'.
+
+----------------------------------------------------------------------
+Error in         : api/Account/InsertAccount
+Time             : 2020/11/06  01:11:26
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Must declare the scalar variable "@FULL_NAME".
+
+----------------------------------------------------------------------
+Error in         : api/Account/InsertAccount
+Time             : 2020/13/06  01:13:12
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Must declare the scalar variable "@FULL_NAME".
+
+----------------------------------------------------------------------
+Error in         : api/Account/InsertAccount
+Time             : 2020/13/06  01:13:26
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Cannot insert the value NULL into column 'USER_NO', table 'TestDB.dbo.AccountInfo'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+
+----------------------------------------------------------------------
+Error in         : api/Account/InsertAccount
+Time             : 2020/14/06  01:14:18
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Cannot insert the value NULL into column 'USER_NO', table 'TestDB.dbo.AccountInfo'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+
+----------------------------------------------------------------------
+Error in         : api/Account/InsertAccount
+Time             : 2020/14/06  01:14:37
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Cannot insert the value NULL into column 'USER_NO', table 'TestDB.dbo.AccountInfo'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+
+----------------------------------------------------------------------
+Error in         : api/Account/InsertAccount
+Time             : 2020/17/06  01:17:15
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Cannot insert the value NULL into column 'USER_NO', table 'TestDB.dbo.AccountInfo'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+
+----------------------------------------------------------------------
+Error in         : api/Account/InsertAccount
+Time             : 2020/18/06  01:18:01
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Cannot insert the value NULL into column 'USER_NO', table 'TestDB.dbo.AccountInfo'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+
+----------------------------------------------------------------------
+Error in         : api/Account/InsertAccount
+Time             : 2020/21/06  01:21:06
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Cannot insert the value NULL into column 'USER_NO', table 'TestDB.dbo.AccountInfo'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+
+----------------------------------------------------------------------
+Error in         : api/Account/InsertAccount
+Time             : 2020/21/06  01:21:30
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Cannot insert the value NULL into column 'USER_NO', table 'TestDB.dbo.AccountInfo'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+
+----------------------------------------------------------------------
+Error in         : api/Account/InsertAccount
+Time             : 2020/21/06  01:21:54
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Cannot insert the value NULL into column 'USER_NO', table 'TestDB.dbo.AccountInfo'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+
+----------------------------------------------------------------------
+Error in         : api/Account/InsertAccount
+Time             : 2020/22/06  01:22:46
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Cannot insert the value NULL into column 'USER_NO', table 'TestDB.dbo.AccountInfo'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+
+----------------------------------------------------------------------
+Error in         : api/Account/InsertAccount
+Time             : 2020/22/06  01:22:59
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Cannot insert the value NULL into column 'USER_NO', table 'TestDB.dbo.AccountInfo'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+
+----------------------------------------------------------------------
+Error in         : api/Account/InsertAccount
+Time             : 2020/23/06  01:23:03
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Cannot insert the value NULL into column 'USER_NO', table 'TestDB.dbo.AccountInfo'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+
+----------------------------------------------------------------------
+Error in         : api/Account/InsertAccount
+Time             : 2020/23/06  01:23:15
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Cannot insert the value NULL into column 'USER_NO', table 'TestDB.dbo.AccountInfo'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+
+----------------------------------------------------------------------
+Error in         : api/Account/InsertAccount
+Time             : 2020/45/06  02:45:42
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Cannot insert the value NULL into column 'USER_NO', table 'TestDB.dbo.AccountInfo'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+
+----------------------------------------------------------------------
+Error in         : api/Account/InsertAccount
+Time             : 2020/47/06  02:47:03
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Cannot insert the value NULL into column 'USER_NO', table 'TestDB.dbo.AccountInfo'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+
+----------------------------------------------------------------------
+Error in         : api/Account/InsertAccount
+Time             : 2020/47/06  02:47:09
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Cannot insert the value NULL into column 'USER_NO', table 'TestDB.dbo.AccountInfo'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+
+----------------------------------------------------------------------
+Error in         : api/Account/InsertAccount
+Time             : 2020/50/06  02:50:07
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Cannot insert the value NULL into column 'USER_NO', table 'TestDB.dbo.AccountInfo'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+
+----------------------------------------------------------------------
+Error in         : api/Account/InsertAccount
+Time             : 2020/50/06  02:50:16
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Cannot insert the value NULL into column 'USER_NO', table 'TestDB.dbo.AccountInfo'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+
+----------------------------------------------------------------------
+Error in         : api/Account/InsertAccount
+Time             : 2020/51/06  02:51:27
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Cannot insert the value NULL into column 'USER_NO', table 'TestDB.dbo.AccountInfo'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+
+----------------------------------------------------------------------
+Error in         : api/Account/InsertAccount
+Time             : 2020/59/06  02:59:04
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Cannot insert the value NULL into column 'USER_NO', table 'TestDB.dbo.AccountInfo'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+
+----------------------------------------------------------------------
+Error in         : api/Account/InsertAccount
+Time             : 2020/01/06  03:01:12
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Cannot insert the value NULL into column 'USER_NO', table 'TestDB.dbo.AccountInfo'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+
+----------------------------------------------------------------------
+Error in         : api/Account/InsertAccount
+Time             : 2020/01/06  03:01:21
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Cannot insert the value NULL into column 'USER_NO', table 'TestDB.dbo.AccountInfo'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+

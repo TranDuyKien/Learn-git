@@ -1,0 +1,20 @@
+----------------------------------------------------------------------
+Error in         : api/Person/GetAllPerson/
+Time             : 2020/52/11  09:52:47
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <GetAllPerson>d__2
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: hihi
+
+----------------------------------------------------------------------
+Error in         : api/Person/InsertPerson
+Time             : 2020/32/11  01:32:18
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__6
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Object reference not set to an instance of an object.
+

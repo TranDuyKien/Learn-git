@@ -1,0 +1,266 @@
+----------------------------------------------------------------------
+Error in         : api/Person/UpdatePerson
+Time             : 2020/17/10  08:17:38
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <UpdateAsync>d__5
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Must declare the scalar variable "@Description".
+
+----------------------------------------------------------------------
+Error in         : api/Person/UpdatePerson
+Time             : 2020/20/10  08:20:08
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <UpdateAsync>d__5
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Must declare the scalar variable "@Description".
+
+----------------------------------------------------------------------
+Error in         : api/Person/InsertPerson
+Time             : 2020/25/10  08:25:32
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Incorrect syntax near ')'.
+
+----------------------------------------------------------------------
+Error in         : api/Person/InsertPerson
+Time             : 2020/28/10  08:28:34
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Incorrect syntax near ')'.
+
+----------------------------------------------------------------------
+Error in         : api/Person/InsertPerson
+Time             : 2020/28/10  08:28:56
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Incorrect syntax near ')'.
+
+----------------------------------------------------------------------
+Error in         : api/Person/InsertPerson
+Time             : 2020/36/10  08:36:31
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Incorrect syntax near ')'.
+
+----------------------------------------------------------------------
+Error in         : api/Person/InsertPerson
+Time             : 2020/38/10  08:38:02
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Incorrect syntax near ')'.
+
+----------------------------------------------------------------------
+Error in         : api/Person/InsertPerson
+Time             : 2020/52/10  08:52:31
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Incorrect syntax near ')'.
+
+----------------------------------------------------------------------
+Error in         : api/Person/InsertPerson
+Time             : 2020/52/10  08:52:58
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Incorrect syntax near ')'.
+
+----------------------------------------------------------------------
+Error in         : api/Person/InsertPerson
+Time             : 2020/53/10  08:53:55
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Incorrect syntax near ')'.
+
+----------------------------------------------------------------------
+Error in         : api/Person/InsertPerson
+Time             : 2020/54/10  08:54:15
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Invalid column name 'StaffId'.
+Invalid column name 'FullName'.
+Invalid column name 'Email'.
+Invalid column name 'Location'.
+Invalid column name 'Avatar'.
+Invalid column name 'Description'.
+Invalid column name 'Phone'.
+Invalid column name 'YearOfBirth'.
+Invalid column name 'Gender'.
+
+----------------------------------------------------------------------
+Error in         : api/Person/InsertPerson
+Time             : 2020/56/10  08:56:16
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Invalid column name 'StaffId'.
+Invalid column name 'FullName'.
+Invalid column name 'Email'.
+Invalid column name 'Location'.
+Invalid column name 'Avatar'.
+Invalid column name 'Description'.
+Invalid column name 'Phone'.
+Invalid column name 'YearOfBirth'.
+Invalid column name 'Gender'.
+
+----------------------------------------------------------------------
+Error in         : api/Person/InsertPerson
+Time             : 2020/57/10  08:57:58
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Must declare the scalar variable "@Description".
+
+----------------------------------------------------------------------
+Error in         : api/Person/UpdatePerson
+Time             : 2020/17/10  09:17:59
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <UpdateAsync>d__5
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Incorrect syntax near 'YearOfBirth'.
+
+----------------------------------------------------------------------
+Error in         : api/Person/UpdatePerson
+Time             : 2020/19/10  09:19:27
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <UpdateAsync>d__5
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Incorrect syntax near 'YearOfBirth'.
+
+----------------------------------------------------------------------
+Error in         : api/Person/InsertPerson
+Time             : 2020/45/10  10:45:26
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Incorrect syntax near the keyword 'VALUES'.
+
+----------------------------------------------------------------------
+Error in         : api/Person/InsertPerson
+Time             : 2020/46/10  10:46:29
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Incorrect syntax near the keyword 'VALUES'.
+
+----------------------------------------------------------------------
+Error in         : api/Person/InsertPerson
+Time             : 2020/47/10  10:47:20
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Incorrect syntax near the keyword 'VALUES'.
+
+----------------------------------------------------------------------
+Error in         : api/Person/InsertPerson
+Time             : 2020/51/10  10:51:04
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Incorrect syntax near the keyword 'VALUES'.
+
+----------------------------------------------------------------------
+Error in         : api/Person/InsertPerson
+Time             : 2020/51/10  10:51:38
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Incorrect syntax near the keyword 'VALUES'.
+
+----------------------------------------------------------------------
+Error in         : api/Person/InsertPerson
+Time             : 2020/57/10  10:57:17
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Incorrect syntax near the keyword 'VALUES'.
+
+----------------------------------------------------------------------
+Error in         : api/Person/InsertPerson
+Time             : 2020/59/10  10:59:25
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Incorrect syntax near the keyword 'VALUES'.
+
+----------------------------------------------------------------------
+Error in         : api/Person/InsertPerson
+Time             : 2020/59/10  10:59:31
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Incorrect syntax near the keyword 'VALUES'.
+
+----------------------------------------------------------------------
+Error in         : api/Person/InsertPerson
+Time             : 2020/00/10  11:00:17
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__4
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Incorrect syntax near the keyword 'VALUES'.
+
+----------------------------------------------------------------------
+Error in         : api/Person/InsertPerson
+Time             : 2020/22/10  03:22:56
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <InsertAsync>d__6
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Incorrect syntax near '@YearOfBirth'.
+
