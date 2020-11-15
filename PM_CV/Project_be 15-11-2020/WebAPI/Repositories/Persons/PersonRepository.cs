@@ -222,6 +222,8 @@ namespace WebAPI.Repositories.Persons
                 sql.AppendLine("    INNER JOIN category AS ca                                                       ");
                 sql.AppendLine("    ON ca.Id = te.CategoryId                                                        ");
                 sql.AppendLine("    ORDER BY ca.Id ASC                                                              ");
+                sql.AppendLine("    OFFSET @Offset ROWS                                                             ");
+                sql.AppendLine("    FETCH NEXT @PageSize ROWS ONLY                                                          ");
                 var lookup = new Dictionary<int, Person>();
                 await conn.QueryAsync<Person, Category, Technology, Person>(sql.ToString(), map: (pe, ca, te) =>
                 {
@@ -250,6 +252,11 @@ namespace WebAPI.Repositories.Persons
                         }
                     }
                     return person;
+                },
+                new
+                {
+                    Offset = (PageIndex - 1) * PageSize,
+                    PageSize = PageSize
                 });
                 var list = lookup.Values.ToList();
                 return list;
