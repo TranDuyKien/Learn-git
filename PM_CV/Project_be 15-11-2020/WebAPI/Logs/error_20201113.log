@@ -1,0 +1,270 @@
+----------------------------------------------------------------------
+Error in         : api/person/getallperson
+Time             : 2020/42/13  02:42:47
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : 
+Procedure        : 
+Error Number     : 500
+Error Description: Unable to resolve service for type 'WebAPI.Services.Persons.IPersonService' while attempting to activate 'WebAPI.Controllers.PersonController'.
+
+----------------------------------------------------------------------
+Error in         : api/Person/GetAllPerson
+Time             : 2020/43/13  02:43:21
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : 
+Procedure        : 
+Error Number     : 500
+Error Description: Unable to resolve service for type 'WebAPI.Services.Persons.IPersonService' while attempting to activate 'WebAPI.Controllers.PersonController'.
+
+----------------------------------------------------------------------
+Error in         : api/Person/GetAllPerson
+Time             : 2020/43/13  02:43:53
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : 
+Procedure        : 
+Error Number     : 500
+Error Description: Unable to resolve service for type 'WebAPI.Services.Persons.IPersonService' while attempting to activate 'WebAPI.Controllers.PersonController'.
+
+----------------------------------------------------------------------
+Error in         : api/Person/GetAllPerson
+Time             : 2020/46/13  02:46:00
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : 
+Procedure        : 
+Error Number     : 500
+Error Description: Unable to resolve service for type 'WebAPI.Services.Persons.IPersonService' while attempting to activate 'WebAPI.Controllers.PersonController'.
+
+----------------------------------------------------------------------
+Error in         : api/Person/GetAllPerson
+Time             : 2020/50/13  02:50:04
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : 
+Procedure        : 
+Error Number     : 500
+Error Description: Unable to resolve service for type 'WebAPI.Services.Persons.IPersonService' while attempting to activate 'WebAPI.Controllers.PersonController'.
+
+----------------------------------------------------------------------
+Error in         : api/Person/GetAllPerson
+Time             : 2020/50/13  02:50:36
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : 
+Procedure        : 
+Error Number     : 500
+Error Description: Unable to resolve service for type 'WebAPI.Services.Persons.IPersonService' while attempting to activate 'WebAPI.Controllers.PersonController'.
+
+----------------------------------------------------------------------
+Error in         : api/Person/GetAllPerson
+Time             : 2020/50/13  02:50:39
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : 
+Procedure        : 
+Error Number     : 500
+Error Description: Unable to resolve service for type 'WebAPI.Services.Persons.IPersonService' while attempting to activate 'WebAPI.Controllers.PersonController'.
+
+----------------------------------------------------------------------
+Error in         : api/Person/GetAllPerson
+Time             : 2020/52/13  02:52:27
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : 
+Procedure        : 
+Error Number     : 500
+Error Description: Unable to resolve service for type 'WebAPI.Services.Persons.IPersonService' while attempting to activate 'WebAPI.Controllers.PersonController'.
+
+----------------------------------------------------------------------
+Error in         : api/Person/GetAllPerson
+Time             : 2020/52/13  02:52:33
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : 
+Procedure        : 
+Error Number     : 500
+Error Description: Unable to resolve service for type 'WebAPI.Services.Persons.IPersonService' while attempting to activate 'WebAPI.Controllers.PersonController'.
+
+----------------------------------------------------------------------
+Error in         : api/Person/GetAllPerson
+Time             : 2020/54/13  02:54:39
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : 
+Procedure        : 
+Error Number     : 500
+Error Description: Unable to resolve service for type 'WebAPI.Services.Persons.IPersonService' while attempting to activate 'WebAPI.Controllers.PersonController'.
+
+----------------------------------------------------------------------
+Error in         : api/Person/UpdatePerson
+Time             : 2020/02/13  03:02:35
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <UpdateAsync>d__7
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+
+----------------------------------------------------------------------
+Error in         : api/Person/UpdatePerson
+Time             : 2020/06/13  03:06:52
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <UpdateAsync>d__7
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Object reference not set to an instance of an object.
+
+----------------------------------------------------------------------
+Error in         : api/Person/UpdatePerson
+Time             : 2020/07/13  03:07:35
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <UpdateAsync>d__7
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Object reference not set to an instance of an object.
+
+----------------------------------------------------------------------
+Error in         : api/Person/UpdatePerson
+Time             : 2020/08/13  03:08:29
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <UpdateAsync>d__7
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Object reference not set to an instance of an object.
+
+----------------------------------------------------------------------
+Error in         : api/Person/UpdatePerson
+Time             : 2020/11/13  03:11:57
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <UpdateAsync>d__7
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Object reference not set to an instance of an object.
+
+----------------------------------------------------------------------
+Error in         : api/Person/UpdatePerson
+Time             : 2020/13/13  03:13:20
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <UpdateAsync>d__7
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Object reference not set to an instance of an object.
+
+----------------------------------------------------------------------
+Error in         : api/Person/UpdatePerson
+Time             : 2020/14/13  03:14:03
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <UpdateAsync>d__7
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Object reference not set to an instance of an object.
+
+----------------------------------------------------------------------
+Error in         : api/Person/UpdatePerson
+Time             : 2020/18/13  03:18:11
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <UpdateAsync>d__7
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Object reference not set to an instance of an object.
+
+----------------------------------------------------------------------
+Error in         : api/Person/UpdatePerson
+Time             : 2020/20/13  03:20:16
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <UpdateAsync>d__7
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Object reference not set to an instance of an object.
+
+----------------------------------------------------------------------
+Error in         : api/Person/UpdatePerson
+Time             : 2020/20/13  03:20:37
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <UpdateAsync>d__7
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Object reference not set to an instance of an object.
+
+----------------------------------------------------------------------
+Error in         : api/Person/UpdatePerson
+Time             : 2020/21/13  03:21:55
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <UpdateAsync>d__7
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Object reference not set to an instance of an object.
+
+----------------------------------------------------------------------
+Error in         : api/Person/UpdatePerson
+Time             : 2020/32/13  03:32:36
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <UpdateAsync>d__7
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Object reference not set to an instance of an object.
+
+----------------------------------------------------------------------
+Error in         : api/Person/UpdatePerson
+Time             : 2020/35/13  03:35:22
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <UpdateAsync>d__7
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Must declare the scalar variable "@UpdatedBy".
+
+----------------------------------------------------------------------
+Error in         : api/Person/UpdatePerson
+Time             : 2020/36/13  03:36:40
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <UpdateAsync>d__7
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Must declare the scalar variable "@UpdatedBy".
+
+----------------------------------------------------------------------
+Error in         : api/Person/UpdatePerson
+Time             : 2020/37/13  03:37:06
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <UpdateAsync>d__7
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Must declare the scalar variable "@UpdatedBy".
+
+----------------------------------------------------------------------
+Error in         : api/Person/UpdatePerson
+Time             : 2020/44/13  03:44:34
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <UpdateAsync>d__7
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Must declare the scalar variable "@UpdatedBy".
+
+----------------------------------------------------------------------
+Error in         : api/Person/UpdatePerson
+Time             : 2020/45/13  03:45:14
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <UpdateAsync>d__7
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Must declare the scalar variable "@UpdatedBy".
+
