@@ -10,8 +10,7 @@ namespace WebAPI.Services.Persons
     public interface IPersonService
     {
         Task<IEnumerable<Person>> GetAllPersonAndSkill();
-        Task<IEnumerable<Person>> PaginationListHome(string FullName, int Location, List<int> TechnologyId, int PageIndex, int PageSize);
-
+        Task<IEnumerable<Person>> PaginationListHome(int pageIndex, int pageSize = 2);
         Task<IEnumerable<Person>> SearchPersonAndSkillAsync(string FullName, int Location, List<int> TechnologyId);
 
         /// <summary>

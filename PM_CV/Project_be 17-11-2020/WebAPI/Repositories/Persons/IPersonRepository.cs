@@ -14,7 +14,7 @@ namespace WebAPI.Repositories.Persons
         public Task<int> GetMaxIdPerson();
 
         public Task<IEnumerable<Person>> GetAllPersonAndSkillAsync();
-        public Task<IEnumerable<Person>> PaginationListHome(string FullName, int Location, List<int> TechnologyId,int PageIndex, int PageSize);
+        Task<IEnumerable<Person>> PaginationListHome(int PageIndex, int PageSize, int checkOffset);
 
         public Task<IEnumerable<Person>> SearchPersonAndSkillAsync(string FullName, int Location, List<int> TechnologyId);
     }

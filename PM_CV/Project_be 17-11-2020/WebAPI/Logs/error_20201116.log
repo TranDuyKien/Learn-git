@@ -1,0 +1,271 @@
+----------------------------------------------------------------------
+Error in         : api/Person/PaginationHome
+Time             : 2020/47/16  08:47:01
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <PaginationListHome>d__9
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: When using the multi-mapping APIs ensure you set the splitOn param if you have keys other than Id (Parameter 'splitOn')
+
+----------------------------------------------------------------------
+Error in         : api/Person/PaginationHome
+Time             : 2020/47/16  08:47:30
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <PaginationListHome>d__9
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: When using the multi-mapping APIs ensure you set the splitOn param if you have keys other than Id (Parameter 'splitOn')
+
+----------------------------------------------------------------------
+Error in         : api/Person/PaginationHome
+Time             : 2020/50/16  08:50:56
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <PaginationListHome>d__9
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: When using the multi-mapping APIs ensure you set the splitOn param if you have keys other than Id (Parameter 'splitOn')
+
+----------------------------------------------------------------------
+Error in         : api/Person/PaginationHome
+Time             : 2020/52/16  08:52:49
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <PaginationListHome>d__9
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: When using the multi-mapping APIs ensure you set the splitOn param if you have keys other than Id (Parameter 'splitOn')
+
+----------------------------------------------------------------------
+Error in         : api/Person/PaginationHome
+Time             : 2020/54/16  08:54:30
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <PaginationListHome>d__9
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: When using the multi-mapping APIs ensure you set the splitOn param if you have keys other than Id (Parameter 'splitOn')
+
+----------------------------------------------------------------------
+Error in         : api/Person/PaginationHome
+Time             : 2020/57/16  08:57:27
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <PaginationListHome>d__9
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: When using the multi-mapping APIs ensure you set the splitOn param if you have keys other than Id (Parameter 'splitOn')
+
+----------------------------------------------------------------------
+Error in         : api/Person/PaginationHome
+Time             : 2020/05/16  09:05:37
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <PaginationListHome>d__9
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: When using the multi-mapping APIs ensure you set the splitOn param if you have keys other than Id (Parameter 'splitOn')
+
+----------------------------------------------------------------------
+Error in         : api/Person/PaginationHome
+Time             : 2020/07/16  09:07:26
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <PaginationListHome>d__9
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: When using the multi-mapping APIs ensure you set the splitOn param if you have keys other than Id (Parameter 'splitOn')
+
+----------------------------------------------------------------------
+Error in         : api/Person/PaginationHome
+Time             : 2020/08/16  09:08:34
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <PaginationListHome>d__9
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: When using the multi-mapping APIs ensure you set the splitOn param if you have keys other than Id (Parameter 'splitOn')
+
+----------------------------------------------------------------------
+Error in         : api/Person/PaginationHome
+Time             : 2020/12/16  09:12:59
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <PaginationListHome>d__9
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: When using the multi-mapping APIs ensure you set the splitOn param if you have keys other than Id (Parameter 'splitOn')
+
+----------------------------------------------------------------------
+Error in         : api/Person/PaginationHome
+Time             : 2020/16/16  09:16:51
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <PaginationListHome>d__9
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: When using the multi-mapping APIs ensure you set the splitOn param if you have keys other than Id (Parameter 'splitOn')
+
+----------------------------------------------------------------------
+Error in         : api/Person/PaginationHome
+Time             : 2020/17/16  09:17:46
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <PaginationListHome>d__9
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: When using the multi-mapping APIs ensure you set the splitOn param if you have keys other than Id (Parameter 'splitOn')
+
+----------------------------------------------------------------------
+Error in         : api/Person/PaginationHome
+Time             : 2020/19/16  09:19:16
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <PaginationListHome>d__9
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: When using the multi-mapping APIs ensure you set the splitOn param if you have keys other than Id (Parameter 'splitOn')
+
+----------------------------------------------------------------------
+Error in         : api/Person/PaginationHome
+Time             : 2020/21/16  09:21:05
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <PaginationListHome>d__9
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: When using the multi-mapping APIs ensure you set the splitOn param if you have keys other than Id (Parameter 'splitOn')
+
+----------------------------------------------------------------------
+Error in         : api/Person/PaginationHome
+Time             : 2020/18/16  10:18:38
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <PaginationListHome>d__9
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: The offset specified in a OFFSET clause may not be negative.
+
+----------------------------------------------------------------------
+Error in         : api/Person/PaginationHome
+Time             : 2020/50/16  01:50:38
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <PaginationListHome>d__9
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: The offset specified in a OFFSET clause may not be negative.
+
+----------------------------------------------------------------------
+Error in         : api/Person/PaginationHome
+Time             : 2020/51/16  01:51:49
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <PaginationListHome>d__9
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: The offset specified in a OFFSET clause may not be negative.
+
+----------------------------------------------------------------------
+Error in         : api/Person/DeletePerson/
+Time             : 2020/53/16  01:53:04
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <DeleteAsync>d__8
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Must declare the scalar variable "@UpdatedBy".
+
+----------------------------------------------------------------------
+Error in         : api/Person/DeletePerson/
+Time             : 2020/54/16  01:54:04
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <DeleteAsync>d__8
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Must declare the scalar variable "@UpdatedBy".
+
+----------------------------------------------------------------------
+Error in         : api/Person/DeletePerson/1
+Time             : 2020/54/16  01:54:14
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <DeleteAsync>d__8
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Must declare the scalar variable "@UpdatedBy".
+
+----------------------------------------------------------------------
+Error in         : api/Person/DeletePerson/1
+Time             : 2020/58/16  01:58:28
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <DeleteAsync>d__8
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Must declare the scalar variable "@UpdatedBy".
+
+----------------------------------------------------------------------
+Error in         : api/Person/DeletePerson/1
+Time             : 2020/59/16  01:59:57
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <DeleteAsync>d__8
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Must declare the scalar variable "@UpdatedBy".
+
+----------------------------------------------------------------------
+Error in         : api/Person/UpdatePerson
+Time             : 2020/31/16  02:31:50
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <UpdateAsync>d__7
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Cannot insert the value NULL into column 'StaffId', table 'HRManagement.dbo.Person'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+
+----------------------------------------------------------------------
+Error in         : api/Person/UpdatePerson
+Time             : 2020/33/16  02:33:14
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <UpdateAsync>d__7
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Incorrect syntax near 'FullName'.
+
+----------------------------------------------------------------------
+Error in         : api/Person/UpdatePerson
+Time             : 2020/34/16  02:34:20
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <UpdateAsync>d__7
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Incorrect syntax near 'FullName'.
+
+----------------------------------------------------------------------
+Error in         : api/Person/DeletePerson/1
+Time             : 2020/28/16  03:28:28
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <DeleteAsync>d__8
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Must declare the scalar variable "@UpdatedBy".
+
+----------------------------------------------------------------------
+Error in         : api/Person/DeletePerson
+Time             : 2020/32/16  03:32:51
+Version          : 1.0.0.0
+OS               : Microsoft Windows 10.0.18363
+Module           : <DeleteAsync>d__8
+Procedure        : MoveNext
+Error Number     : 500
+Error Description: Must declare the scalar variable "@UpdatedBy".
+

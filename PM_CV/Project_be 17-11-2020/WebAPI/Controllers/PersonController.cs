@@ -10,7 +10,7 @@ namespace WebAPI.Controllers
 {
     [Route("api/[controller]/[action]/{id?}")]
     [ApiController]
-    public class PersonController: BaseApiController<PersonViewModel>
+    public class PersonController : BaseApiController<PersonViewModel>
     {
         private IPersonService _personService;
         public PersonController(IPersonService personSevice)
@@ -31,13 +31,16 @@ namespace WebAPI.Controllers
             return Ok(apiResult.AppResult);
         }
 
+
+
         [HttpGet]
         public async Task<IActionResult> PaginationHome(TestRequestModel testRequestModel)
         {
-            var person = await _personService.PaginationListHome(testRequestModel.FullName,testRequestModel.Location,testRequestModel.TechnologyId, testRequestModel.PageIndex,testRequestModel.PageSize);
+            var person = await _personService.PaginationListHome(testRequestModel.PageIndex);
             apiResult.AppResult.DataResult = person;
             return Ok(apiResult.AppResult);
         }
+
 
         /// <summary>
         /// Get all Person
@@ -48,7 +51,7 @@ namespace WebAPI.Controllers
         {
             var employees = await _personService.GetAllPerson();
             apiResult.AppResult.DataResult = employees.AsEnumerable<Person>();
-            
+
             return Ok(apiResult.AppResult);
         }
 
@@ -58,9 +61,9 @@ namespace WebAPI.Controllers
         /// <param name="id"></param>
         /// <returns></returns>
         [HttpGet]
-        public async Task<IActionResult> GetPersonById(int id)
+        public async Task<IActionResult> GetPersonById([FromBody] FindWithIdRequestModel personObj)
         {
-            var app = await _personService.GetPersonById(id);
+            var app = await _personService.GetPersonById(personObj.Id);
             apiResult.AppResult.DataResult = app;
             return Ok(apiResult.AppResult);
         }
@@ -73,8 +76,8 @@ namespace WebAPI.Controllers
         [HttpGet]
         public async Task<IActionResult> SearchPerson(TestRequestModel testRequestModel)
         {
-            
-            var app = await _personService.SearchPersonAndSkillAsync(testRequestModel.FullName,testRequestModel.Location, testRequestModel.TechnologyId);
+
+            var app = await _personService.SearchPersonAndSkillAsync(testRequestModel.FullName, testRequestModel.Location, testRequestModel.TechnologyId);
             apiResult.AppResult.DataResult = app;
             return Ok(apiResult.AppResult);
         }
@@ -111,9 +114,9 @@ namespace WebAPI.Controllers
         /// <param name="id"></param>
         /// <returns></returns>
         [HttpDelete]
-        public async Task<IActionResult> DeletePerson(int id)
+        public async Task<IActionResult> DeletePerson([FromBody] FindWithIdRequestModel personObj)
         {
-            var app = await _personService.DeletePerson(id);
+            var app = await _personService.DeletePerson(personObj.Id);
             return Ok(app.AppResult);
         }
     }

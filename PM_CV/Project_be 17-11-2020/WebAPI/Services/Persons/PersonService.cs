@@ -7,6 +7,7 @@ using WebAPI.Models;
 using WebAPI.Repositories.Persons;
 using WebAPI.Services.Persons;
 using WebAPI.ViewModels;
+using WebAPI.Common;
 
 namespace WebAPI.Services.Persons
 {
@@ -18,9 +19,17 @@ namespace WebAPI.Services.Persons
             this._personRepository = personRepository;
         }
 
-        public async Task<IEnumerable<Person>> PaginationListHome(string FullName, int Location, List<int> TechnologyId, int PageIndex, int PageSize)
+        public async Task<IEnumerable<Person>> PaginationListHome(int pageIndex, int pageSize = 10)
         {
-            return await _personRepository.PaginationListHome(FullName,Location,TechnologyId,PageIndex,PageSize);
+            int CheckOffset()
+            {
+
+                int Offset = (pageIndex - 1) * pageSize;
+                return Offset;
+            }
+            var tempList = await _personRepository.PaginationListHome(pageIndex, pageSize, CheckOffset());
+
+            return tempList;
         }
 
         public async Task<IEnumerable<Person>> GetAllPersonAndSkill()
@@ -33,6 +42,11 @@ namespace WebAPI.Services.Persons
         /// <returns></returns>
         public async Task<IEnumerable<Person>> GetAllPerson()
         {
+            var countListPerson = await _personRepository.GetAllAsync();
+            if (countListPerson.Count() > 0)
+            {
+                model.AppResult = new AppResult { Result = true, StatusCd = "200", Message = "List Person!", DataResult = model.PersonInfo };
+            }
             return await _personRepository.GetAllAsync();
         }
 
@@ -51,22 +65,30 @@ namespace WebAPI.Services.Persons
         /// </summary>
         /// <param name="person"></param>
         /// <returns></returns>
-        public async Task<PersonViewModel> InsertPerson (Person person)
+        public async Task<PersonViewModel> InsertPerson(Person person)
         {
             model.PersonInfo = person;
             model.PersonInfo.CreatedBy = WebAPI.Helpers.HttpContext.CurrentUser;
             var getdate = DateTime.Now.ToString("yyyyMMdd");
             int newestIdPerson = 1;
-            if (await _personRepository.AmountOfPerson() > 0)
+            DateTime.Now.ToString();
+            if (Functions.HandlingEmail(person.Email) == true )
             {
-                newestIdPerson = await _personRepository.GetMaxIdPerson() + 1;
-                person.StaffId = string.Format($"{getdate + newestIdPerson}");
+                if (await _personRepository.AmountOfPerson() > 0)
+                {
+                    newestIdPerson = await _personRepository.GetMaxIdPerson() + 1;
+                    person.StaffId = string.Format($"{getdate + newestIdPerson}");
+                }
+                else
+                {
+                    person.StaffId = string.Format($"{getdate + newestIdPerson}");
+                }
+                model.PersonInfo.Status = true;
+                await _personRepository.InsertAsync(model.PersonInfo);
+                model.PersonInfo.Id = newestIdPerson;
+                model.AppResult= new AppResult { Result = true, StatusCd = "201", Message = "Successfully created! The request has succeeded and a new resource has been created as a result.!" , DataResult= model.PersonInfo};
+                return model;
             }
-            else
-            {
-                person.StaffId = string.Format($"{getdate + newestIdPerson}");
-            }
-            await _personRepository.InsertAsync(model.PersonInfo);
             return model;
         }
 
@@ -79,7 +101,13 @@ namespace WebAPI.Services.Persons
         {
             model.PersonInfo = person;
             model.PersonInfo.UpdatedBy = WebAPI.Helpers.HttpContext.CurrentUser;
-            await _personRepository.UpdateAsync(model.PersonInfo);
+            if (Functions.HandlingEmail(person.Email) == true)
+            {
+                await _personRepository.UpdateAsync(model.PersonInfo);
+                int newestIdPerson = await _personRepository.GetMaxIdPerson() + 1;
+                model.AppResult = new AppResult { Result = true, StatusCd = "200", Message = "Successfully updated! The request was fulfilled", DataResult= model.PersonInfo };
+                return model;
+            }
             return model;
         }
 
@@ -90,7 +118,13 @@ namespace WebAPI.Services.Persons
         /// <returns></returns>
         public async Task<PersonViewModel> DeletePerson(int id)
         {
-            await _personRepository.DeleteAsync(id);
+            int resultDelete = await _personRepository.DeleteAsync(id);
+            if (resultDelete >0)
+            {
+                model.AppResult = new AppResult { Result = true, StatusCd = "200", Message = "Successfully deleted!" };
+                return model;
+            }
+            model.AppResult = new AppResult { Result = false, StatusCd = "400", Message = "Bad request" };
             return model;
         }
 
